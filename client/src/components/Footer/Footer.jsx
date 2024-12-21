@@ -3,14 +3,14 @@ import sambhavLogo from "../../assets/Logo.png";
 import grabbitslogo from "../../assets/grabbits.png";
 import classes from "./Footer.module.css";
 
-const sambhavinsta = "https://www.instagram.com/sambhav_dypcoe/";
+const sambhavinsta = "https://www.instagram.com/@techsrijan.mmmut";
 const sambhavlinkedin = "https://www.linkedin.com/company/sambhav-tech-fest/";
 // const sambhavitwitter=''
 
-const grabbitinsta = "https://www.instagram.com/grabbits_/";
-const grabbitlinkedin = "https://www.linkedin.com/company/grabbits/";
-const grabbittwitter = "https://twitter.com/grabbits_";
-const grabbitwebsite = "https://grabbits.vercel.app/";
+const grabbitinsta = " @techsrijan.mmmut";
+//const grabbitlinkedin = "https://www.linkedin.com/company/grabbits/";
+//const grabbittwitter = "https://twitter.com/grabbits_";
+//const grabbitwebsite = "https://grabbits.vercel.app/";
 
 const spiderurl = "https://www.linkedin.com/in/om-gawande/";
 const saurabh = "https://www.linkedin.com/in/saurabh-barde-5b617321a/";
@@ -80,20 +80,6 @@ const Footer = () => {
         <div className={classes.footer_first}>
           <div className={classes.footer_sambhav_image_div}>
             <div>
-              <a
-                href={grabbiturl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={classes.footer_a_link}
-              >
-                <img
-                  className={classes.footer_grabbit_image}
-                  src={grabbitslogo}
-                  alt="sambhavLogo"
-                ></img>
-              </a>
-            </div>
-            <div>
               {/* <h1 className={classes.footer_sambhav}>GrabBit</h1> */}
             </div>
           </div>
@@ -116,49 +102,8 @@ const Footer = () => {
                 />
               </a>{" "}
             </div>
-            <div>
-              <a
-                href={grabbitlinkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={classes.footer_a_link}
-              >
-                <img
-                  className={classes.footer_social_link}
-                  src="https://img.icons8.com/color/48/ffffff/linkedin-circled--v1.png"
-                  alt=""
-                />
-              </a>
-            </div>
-            <div>
-              <a
-                href={grabbittwitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={classes.footer_a_link}
-              >
-                <img
-                  className={classes.footer_social_link}
-                  src="https://img.icons8.com/fluency/48/ffffff/twitter-circled.png"
-                  alt=""
-                />
-              </a>{" "}
-            </div>
-            <div>
-              <a
-                href={grabbitwebsite}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={classes.footer_a_link}
-              >
-                <img
-                  className={classes.footer_social_link}
-                  src="https://img.icons8.com/color/48/ffffff/domain--v1.png"
-                  alt="zsdsff"
-                />
-              </a>
-            </div>
-          </div>
+            
+          </div> 
         </div>
         {/* <div className={classes.footer}second'>
           <h2 className={classes.footer}menu-heading'>Menu</h2>
